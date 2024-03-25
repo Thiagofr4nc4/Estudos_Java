@@ -16,7 +16,7 @@ public class ExercicioMedia {
             somaVetor += vetor[i];
         }
         double mediaVetor = somaVetor/vetor.length;
-
+            // teste para commit
         System.out.println("A média é =  " + mediaVetor);
         System.out.println("Elementos abaixo da média: ");
         for (int i = 0; i <vetor.length ; i++) {
