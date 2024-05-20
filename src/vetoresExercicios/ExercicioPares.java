@@ -1,4 +1,4 @@
-package Vetores_Exercicios;
+package vetoresExercicios;
 import java.util.Scanner;
 public class ExercicioPares {
     public static void main(String[] args) {
