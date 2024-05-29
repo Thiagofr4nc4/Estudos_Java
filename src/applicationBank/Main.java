@@ -9,6 +9,7 @@ public class Main {
       bank.makeDeposit();
       bank.makeWithdraw();
       bank.viewBalance(bank.getBalance());
+      bank.income();
 
     }
 }

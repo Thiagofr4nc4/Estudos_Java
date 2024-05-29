@@ -54,6 +54,7 @@ public class BankFunctions {
         System.out.println("Digite o valor que deseja depositar: ");
         double depositAmount = scanner.nextDouble();
         this.balance += depositAmount;
+        System.out.println("Depósito realizado com sucesso. Novo saldo: " + this.balance);
         }
     public void makeWithdraw(){
         System.out.println("Digite o valor que deseja sacar:   ");
@@ -64,5 +65,11 @@ public class BankFunctions {
 
     public void viewBalance(Double balance){
         System.out.println("O Valor atual da sua conta é de: " + this.balance);
+    }
+
+    public void income() {
+        double incomeAmount = this.balance * 0.08;
+        this.balance += incomeAmount;
+        System.out.println("Rendimentos aplicados com sucesso. Novo saldo: " + this.balance);
     }
 }
